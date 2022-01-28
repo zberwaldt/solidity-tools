@@ -1,0 +1,23 @@
+[
+  {
+    "caption": "Solidity Tools",
+    "mnemonic": "S",
+    "id": "solidity",
+    "children":
+    [
+      {
+        "command": "create_solidity_contract",
+        "caption": "Create New Contract"
+      }, {
+        "command": "initialize_hardhat_project",
+        "caption": "Intialize Hardhat Project"
+      }, {
+        "caption": "Create Hardhat Script",
+        "command": "create_solidity_script"
+      }, {
+        "caption": "Create Hardhat Test",
+        "command": "create_solidity_test"
+      }
+    ]
+  }
+]

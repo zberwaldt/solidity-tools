@@ -1,0 +1,15 @@
+[
+  {
+    "caption": "Solidity Tools: Create New Contract",
+    "command": "create_solidity_contract"
+  }, {
+    "caption": "Solidity Tools: Create Solidity Test",
+    "command": "create_solidity_test"
+  }, {
+    "caption": "Solidity Tools: Create Solidity Script",
+    "command": "create_solidity_script"
+  }, {
+    "caption": "Solidity Tools: Initalize",
+    "command": "initialize_hardhat_project"
+  }
+]

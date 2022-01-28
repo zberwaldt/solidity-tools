@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+  function ${1:name}(${2}) ${3:visibility} ${4:type} ${5:returns (${6:uint256})} {
+    // function logic...
+    ${7}
+  }
+  ]]></content>
+  <tabTrigger>function</tabTrigger>
+  <scope>source.solidity</scope>
+</snippet>
