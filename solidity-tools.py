@@ -38,8 +38,16 @@ class CreateSolidityContractCommand(sublime_plugin.WindowCommand):
       })
 
 class CreateSolidityTestCommand(sublime_plugin.WindowCommand):
-  def run(self):
+  def run(self, paths=[], name=""):
     print('create solidity test...')
+    view = self.window.show_input_panel(
+      'NAME YO FILE:', 
+      name, 
+      functools.partial(self.on_done, paths, False), 
+      None, 
+      None
+    )
+    self.window.focus_view(view)
 
 class CreateSolidityScriptCommand(sublime_plugin.WindowCommand):
   def run(self):
